@@ -1,5 +1,6 @@
 
 # Bangkit 2022: Android Fundamental
+> Master branch is the final submission (submission 3)
 ![summary](https://user-images.githubusercontent.com/66185022/161162665-2d33e5a8-33cd-4cc8-b877-94a038b52e78.png)
 > Just  **star** or  **fork** this repository, and follow my github. You have *supported* me!
 
