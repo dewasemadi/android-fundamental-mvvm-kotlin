@@ -88,7 +88,7 @@ android {
 
 | No  | Scenario                                                                                                     | Pre-requisites             | Steps                                                                                                               | Expected Results                    | Actual Result | Status |
 | --- | ------------------------------------------------------------------------------------------------------------ | -------------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------- | ------ |
-| 1   | Add user to favorite                                                                     | User has opened the application and internet network is active | Search for GitHub users then selects one. In detail page, tap the favorite floating button.                       | Favorite users are on the favorites page               | As expected   | Pass ✔ |
+| 1   | Add user to favorite                                                                     | User has opened the application and internet network is active | Search for GitHub users then selects one. In detail page, tap the favorite floating button.                       | Favorite user is on the favorites page               | As expected   | Pass ✔ |
 
 ![unit test](https://user-images.githubusercontent.com/66185022/161169684-e8129df8-cdb1-4b9d-a2f6-3b276d7c625f.png)
 
