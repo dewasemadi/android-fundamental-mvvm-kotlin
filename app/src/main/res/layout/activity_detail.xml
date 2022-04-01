@@ -1,46 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingStart="16dp"
-    android:paddingEnd="16dp"
-    tools:context=".ui.view.DetailActivity">
+    tools:context=".DetailActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="22dp">
 
-    <include
-        android:id="@+id/detail_layout"
-        layout="@layout/layout_detail"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/img_detail_avatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/avatar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
 
-    <ProgressBar
-        android:id="@+id/detail_progress_bar"
-        style="?android:attr/progressBarStyle"
+    <TextView
+        android:id="@+id/tv_detail_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="20dp"
+        android:text="@string/name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/img_detail_avatar"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/img_detail_avatar"
+        app:layout_constraintTop_toBottomOf="@+id/img_detail_avatar" />
 
-    <include
-        android:id="@+id/network_error_container"
-        layout="@layout/layout_network_error"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="parent" />
+    <TextView
+        android:id="@+id/tv_detail_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/username"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_detail_name"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="@+id/tv_detail_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detail_name" />
 
+    <TextView
+        android:id="@+id/tv_detail_follower"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:gravity="center_horizontal"
+        android:text="@string/follower"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_detail_following"
+        app:layout_constraintEnd_toStartOf="@+id/tv_detail_following" />
+
+    <TextView
+        android:id="@+id/tv_detail_following"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/following"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_detail_username"
+        app:layout_constraintStart_toStartOf="@+id/tv_detail_username"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detail_username" />
+
+    <TextView
+        android:id="@+id/tv_detail_repository"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:gravity="center_horizontal"
+        android:text="@string/repository"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_detail_following"
+        app:layout_constraintStart_toEndOf="@+id/tv_detail_following" />
+
+    <TextView
+        android:id="@+id/tv_followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/follower"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_detail_follower"
+        app:layout_constraintStart_toStartOf="@+id/tv_detail_follower"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detail_follower" />
+
+    <TextView
+        android:id="@+id/tv_following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/following"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_detail_following"
+        app:layout_constraintStart_toStartOf="@+id/tv_detail_following"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detail_following" />
+
+    <TextView
+        android:id="@+id/tv_repository"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/repository"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_detail_repository"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/tv_detail_repository"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detail_repository" />
+
+    <ImageView
+        android:id="@+id/img_detail_location_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/location"
+        app:layout_constraintStart_toStartOf="@+id/tv_detail_follower"
+        app:layout_constraintTop_toBottomOf="@+id/tv_followers"
+        app:srcCompat="@drawable/ic_baseline_location_on_24" />
+
+    <TextView
+        android:id="@+id/tv_detail_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:gravity="center_vertical"
+        android:text="@string/location"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_detail_location_icon"
+        app:layout_constraintStart_toEndOf="@+id/img_detail_location_icon" />
+
+    <ImageView
+        android:id="@+id/tv_detail_company_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/company"
+        app:layout_constraintStart_toStartOf="@+id/img_detail_location_icon"
+        app:layout_constraintTop_toBottomOf="@+id/img_detail_location_icon"
+        app:srcCompat="@drawable/ic_baseline_work_24" />
+
+    <TextView
+        android:id="@+id/tv_detail_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:gravity="center_vertical"
+        android:text="@string/company"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_detail_company_icon"
+        app:layout_constraintStart_toEndOf="@+id/tv_detail_company_icon" />
 </androidx.constraintlayout.widget.ConstraintLayout>
