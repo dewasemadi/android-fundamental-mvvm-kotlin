@@ -1,14 +1,13 @@
 package com.dicoding.githubuser
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
+import com.dicoding.githubuser.ui.main.MainActivity
+import com.dicoding.githubuser.util.DELAY
 
-@Suppress("DEPRECATION")
-@SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,9 +20,5 @@ class SplashScreenActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }, DELAY)
-    }
-
-    companion object {
-        const val DELAY = 2000L
     }
 }

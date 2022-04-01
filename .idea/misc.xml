@@ -3,8 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/2-layout/12-Submission-1/app/src/main/res/layout/activity_detail.xml" value="0.18297101449275363" />
-        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/2-layout/12-Submission-1/app/src/main/res/layout/user_item.xml" value="0.18297101449275363" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/drawable/ic_baseline_book_24.xml" value="0.2055" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2055" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/drawable/ic_baseline_work_24.xml" value="0.2055" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/drawable/ic_outline_apartment_24.xml" value="0.2055" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/drawable/ic_outline_email_24.xml" value="0.2055" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/drawable/ic_outline_link_24.xml" value="0.2055" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/drawable/ic_outline_location_on_24.xml" value="0.2055" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/drawable/ic_outline_person_24.xml" value="0.2055" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/drawable/ic_twitter.xml" value="0.2055" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/activity_splash_screen.xml" value="0.16847826086956522" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/empty_state.xml" value="0.1671195652173913" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/fragment_followers.xml" value="0.18297101449275363" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/fragment_following.xml" value="0.18297101449275363" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/layout_detail.xml" value="0.25" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/layout_empty_state.xml" value="0.33" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/layout_network_error.xml" value="0.21" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/layout_not_found.xml" value="0.25" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/layout_user_item.xml" value="0.21" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/network_error.xml" value="0.25" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/not_found.xml" value="0.2" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/tab_layout.xml" value="0.25" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/layout/user_item.xml" value="0.12" />
+        <entry key="..\:/Bangkit/Class/5. Belajar Fundamental Aplikasi Android/5-android-architecture/24-Submission-2/app/src/main/res/menu/option_menu.xml" value="0.67" />
         <entry key="app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_detail.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
