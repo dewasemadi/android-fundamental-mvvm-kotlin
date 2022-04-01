@@ -56,6 +56,7 @@ android {
 - Splashscreen
 - Error handling when API's request failed
 - Loading indicator
+- Displaying a bunch of data with recyclerview
 
 ## Showcase Project (Final Submission)
 <table>
