@@ -147,13 +147,7 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-    private fun isUserPlural(count: Int): String {
-        if (count == 1)
-            return "user"
-        else if (count > 1)
-            return "users"
-        return ""
-    }
+    private fun isUserPlural(count: Int) = if (count > 1) "users" else "user"
 
     private fun showDetailUser(data: User) {
         val intentToDetail = Intent(this@MainActivity, DetailActivity::class.java)
